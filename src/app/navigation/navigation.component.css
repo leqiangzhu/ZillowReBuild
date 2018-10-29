@@ -1,0 +1,21 @@
+img{
+    width: 100px;
+}
+
+.nav-container{
+    height: 100px;
+}
+.home-page-tabs{
+    height: 50px;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+
+#buy-rent-links{
+    columns: 4;
+    width: 30%;
+    display: inline-block;
+    padding: 20 0px;
+}

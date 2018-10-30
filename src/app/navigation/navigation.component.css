@@ -6,16 +6,50 @@ img{
     height: 100px;
 }
 .home-page-tabs{
-    height: 50px;
-    display: inline-block;
+        position: relative;
+        z-index: 1000;
+        padding-left: 110px;
+        font-family: sans-serif;
+        box-shadow: 5px #888;
+        max-height: 48px;
+        font-weight: 400;
+        background-color: #fff;
 }
 ul{
     list-style-type: none;
 }
 
-#buy-rent-links{
-    columns: 4;
-    width: 30%;
-    display: inline-block;
-    padding: 20 0px;
+.znav {
+    position: relative;
+    z-index: 1000;
+}
+
+#block-nav {
+    padding-left: 9px;
+  }
+
+#nav-top-bar{
+        height: 50px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+
+#nav-links {
+        list-style-type: none;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.top-block{
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+
 }

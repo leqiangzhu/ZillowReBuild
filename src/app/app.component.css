@@ -1,0 +1,45 @@
+#zillow-nav-logo {
+    float: left;
+    position: absolute;
+    top: 0em;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+  }
+  
+  #nav-bar-skinny {
+    font-size: 15px !important;
+    padding-left: 110px;
+    font-family: sans-serif;
+    box-shadow: 5px #888;
+    max-height: 48px;
+    font-weight: 400;
+    background-color: #fff;
+  }
+  
+  #color-layer{
+    display: block;
+  }
+  
+  .line-spacing {
+    margin: 10px !important;
+  }
+  
+  #nav-bar-brands {
+    background-color: #000;
+    color: #aaa;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  #footer-nav {
+    padding: 10px;
+  }
+  
+  .break {
+    font-size: 25px;
+    font-weight: 200;
+  }
+  

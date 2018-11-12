@@ -12,7 +12,11 @@ ul {
 .znav-nav{
     height:100%
 }
-
+.zillow-logo{
+   
+    padding-left:12px;
+    padding-left: 50%;
+}
 
 .znav-links-anonymous li:nth-child(2):before{padding:10px;content:'or'}
 @media all and (min-width:769px){.znav-links-main>li>a,.znav-section>li,.znav-section>li>a{
@@ -23,11 +27,12 @@ ul {
     display:flex
 }
 .znav-logo{
-    -ms-flex:0 0 auto;
+    left: 80px;
+    -ms-flex:11 0 auto;
     flex:0 0 auto;
     position:relative;
     z-index:2;
-    margin-right:10px
+    margin-right:120px
 }
 .znav-links{
     -ms-flex:1 1 100%;

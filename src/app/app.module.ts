@@ -3,16 +3,30 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
+import { FooterComponent } from './footer/footer.component';
+import { routing } from './app.routing';
+ 
+import { FormsModule }  from '@angular/forms';
+import { SearchComponent } from './search/search.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    WrapperComponent
+    WrapperComponent,
+    FooterComponent,
+    SearchComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule ,
+ 
+   routing
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

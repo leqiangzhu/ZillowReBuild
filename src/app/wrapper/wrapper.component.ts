@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-wrapper',
@@ -12,4 +13,21 @@ export class WrapperComponent implements OnInit {
   ngOnInit() {
   }
 
+  link:number =0;
+ 
+  
+
+  buyLink(){
+    this.link=0;
+  }
+
+  sellLink(){
+    this.link=2;
+  }
+  rentLink(){
+    this.link=1;
+  }
+  zestimateLink(){
+    this.link=3;
+  }
 }

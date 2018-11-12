@@ -1,0 +1,109 @@
+
+  .card-body{
+    background-color: #eee;
+    padding-top: 30px;
+  }
+  
+  .footer-header{
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .hidden-real-estate {
+    display: none;
+    margin-left: 10px !important;
+  }
+  .hidden-rentals {
+    display: none;
+  }
+  .hidden-mortgage {
+    display: none;
+  }
+  .hidden-browse {
+    display: none;
+  }
+  
+  .sub-header ul {
+    color: #444;
+    list-style: none;
+    padding-left: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  #zillow-nav-logo {
+  float: left;
+  position: absolute;
+  top: 0em;
+  width: 100px;
+  height: 100px;
+  z-index: 99;
+}
+
+#nav-bar-skinny {
+  font-size: 15px !important;
+  padding-left: 110px;
+  font-family: sans-serif;
+  box-shadow: 5px #888;
+  max-height: 48px;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+#color-layer{
+  display: block;
+}
+ 
+.area-list {
+  margin: 10px !important;
+}
+
+#nav-bar-brands {
+  background-color: #000;
+  color: #aaa;
+  padding-left: 19%;
+  padding-right: 15%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#footer-nav {
+  padding: 10px;
+}
+
+.break {
+  font-size: 25px;
+  font-weight: 200;
+}
+.zsg-footer_react .zsg-footer-linklist-container{
+  height:auto;
+  overflow:visible;
+  padding-right:0
+}
+.nav-footer-line2{
+  list-style: none;
+ 
+  display: inline-block;
+  color: #444;
+ 
+  padding-left: 0;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+} 
+.cdcdc{
+  list-style: none;
+}
+
+#nav-bar-brands1 {
+  background-color: #000;
+  color: #aaa;
+  padding-left: 5%;
+  padding-right: 0;
+  font-size: 14px;
+  font-weight: 600;
+}

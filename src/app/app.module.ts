@@ -8,6 +8,7 @@ import { routing } from './app.routing';
  
 import { FormsModule }  from '@angular/forms';
 import { SearchComponent } from './search/search.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 
@@ -19,6 +20,7 @@ import { SearchComponent } from './search/search.component';
     WrapperComponent,
     FooterComponent,
     SearchComponent,
+    WelcomeComponent,
     
   ],
   imports: [

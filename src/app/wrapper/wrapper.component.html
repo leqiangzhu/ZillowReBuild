@@ -32,10 +32,13 @@
           <a class="nav-link text-white" routerLink="zestimate" id="zillow-link" (click)="zestimateLink()">Zestimate</a>
         </li>
         <div class="input-group" id="search-box">
-          <input type="text" class="form-control" id="interior-search-box" placeholder="Enter an address, neighborhood, city, or ZIP code">
+          <input #newAddress type="text" class="form-control" id="interior-search-box" placeholder="Enter an address, neighborhood, city, or ZIP code">
           <div id="search-button">
-              <a routerLink="result"><button class="btn btn-default;" type="button" id="button-background"(click)="SearchZillow()" >Search</button></a>
-              <a routerLink="result">About</a>
+              <!-- (click)="SearchZillow()" -->
+              <a routerLink="/search">
+                <button class="btn btn-default;" type="button" id="button-background" >Search</button>
+              </a>
+              <!-- <a routerLink="result">About</a> -->
           </div>
         </div>
       
